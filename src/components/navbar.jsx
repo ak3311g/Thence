@@ -6,7 +6,7 @@ import LoginForm from './loginform';
 export default function Navbar() {
 
     const [navbar, setNavbar] = useState(false)
-    const [login, setLogin] = useState(true)
+    const [login, setLogin] = useState(false)
 
     return (
         <>
